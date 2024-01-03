@@ -30,3 +30,22 @@ git clone https://github.com/arnab-git-404/arnab-portfolio.git
     <li>Vanilla Tilt.js: JavaScript library for creating tilt effects on images.</li>
     <li>ScrollReveal: JavaScript library for adding scroll animations.</li>
     <li>Email.js: Library for sending emails using JavaScript.</li>
+    
+## Directory-Structure
+<li><code>assets/</code>: Contains subdirectories for images, CSS, and JavaScript files.</li>
+    <li><code>assets/css/</code>: Stylesheet files, including <code>style.css</code>.</li>
+    <li><code>assets/images/</code>: Image files used in the portfolio.</li>
+    <li><code>assets/js/</code>: JavaScript files, including <code>script.js</code> and libraries.</li>
+    <li><code>index.html</code>: Main HTML file for the portfolio.</li>
+
+## Features
+<li>Responsive design for various screen sizes.</li>
+    <li>Interactive navigation with smooth scrolling.</li>
+    <li>Tilt effect on the profile image.</li>
+    <li>Particle background animation.</li>
+    <li>Dynamic typing animation for the "I am into" section.</li>
+    <li>Contact form with email submission.</li>
+
+## Usage
+<p>Simply open the <code>index.html</code> file in a web browser to view Arnab's portfolio. Navigate through different sections using the navigation bar.</p>
+
