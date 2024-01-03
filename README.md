@@ -49,3 +49,13 @@ git clone https://github.com/arnab-git-404/arnab-portfolio.git
 ## Usage
 <p>Simply open the <code>index.html</code> file in a web browser to view Arnab's portfolio. Navigate through different sections using the navigation bar.</p>
 
+## contributing
+<p>Contributions are welcome! If you'd like to contribute to the project, feel free to fork the repository and submit a pull request.</p>
+
+## Contact
+<li>LinkedIn: <a href="https://www.linkedin.com/in/arnab000/">Arnab Mukherjee</a></li>
+    <li>GitHub: <a href="https://github.com/arnab-git-404">arnab-git-404</a></li>
+    <li>Email: mukherjeearnab988@gmail.com</li>
+
+## License
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>. Feel free to use, modify, and distribute the code for your own projects.</p>
