@@ -23,3 +23,10 @@ To get started with the project, simply clone the repository to your local machi
 git clone https://github.com/arnab-git-404/arnab-portfolio.git
 
 ## Dependencies
+<li>Font Awesome: Icon library for social media and other icons.</li>
+<li>Particles.js: JavaScript library for creating animated particle backgrounds.</li>
+    <li>jQuery: JavaScript library for DOM manipulation.</li>
+    <li>Typed.js: JavaScript library for creating typing animations.</li>
+    <li>Vanilla Tilt.js: JavaScript library for creating tilt effects on images.</li>
+    <li>ScrollReveal: JavaScript library for adding scroll animations.</li>
+    <li>Email.js: Library for sending emails using JavaScript.</li>
