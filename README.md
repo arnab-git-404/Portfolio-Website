@@ -4,15 +4,15 @@
 Welcome to Arnab Mukherjee's Portfolio! This repository contains the HTML, CSS, and JavaScript code for Arnab's personal portfolio website.
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Getting Started](#getting-started)
-3. [Dependencies](#dependencies)
-4. [Directory Structure](#directory-structure)
-5. [Features](#features)
-6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [Contact](#contact)
-9. [License](#license)
+1. [Project Overview](#Project-overview)
+2. [Getting Started](#Getting-started)
+3. [Dependencies](#Dependencies)
+4. [Directory Structure](#Directory-structure)
+5. [Features](#Features)
+6. [Usage](#Usage)
+7. [Contributing](#Contributing)
+8. [Contact](#Contact)
+9. [License](#License)
 
 ## Project Overview
 Arnab's Portfolio is a personal website showcasing Arnab Mukherjee's skills, education, work, and projects. The website is designed to provide visitors with information about Arnab's background, skills, and experience. It includes sections such as About Me, Skills, Education, Work Projects, Experience, and a Contact form.
@@ -49,7 +49,7 @@ git clone https://github.com/arnab-git-404/arnab-portfolio.git
 ## Usage
 <p>Simply open the <code>index.html</code> file in a web browser to view Arnab's portfolio. Navigate through different sections using the navigation bar.</p>
 
-## contributing
+## Contributing
 <p>Contributions are welcome! If you'd like to contribute to the project, feel free to fork the repository and submit a pull request.</p>
 
 ## Contact
