@@ -20,7 +20,7 @@ Arnab's Portfolio is a personal website showcasing Arnab Mukherjee's skills, edu
 ## Getting Started
 To get started with the project, simply clone the repository to your local machine using the following command:
 
-git clone https://github.com/arnab-git-404/arnab-portfolio.git
+git clone https://github.com/arnab-git-404/Portfolio-Website
 
 ## Dependencies
 <li>Font Awesome: Icon library for social media and other icons.</li>
