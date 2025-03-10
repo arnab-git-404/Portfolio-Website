@@ -139,11 +139,7 @@ function showProjects(projects) {
     });
     projectsContainer.innerHTML = projectHTML;
 
-    // <!-- tilt js effect starts -->
-    VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        max: 30,
-    });
-    // <!-- tilt js effect ends -->
+
 
     /* ===== SCROLL REVEAL ANIMATION ===== */
     const srtop = ScrollReveal({
@@ -165,12 +161,6 @@ fetchData().then(data => {
 fetchData("projects").then(data => {
     showProjects(data);
 });
-
-// <!-- tilt js effect starts -->
-VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 30,
-});
-// <!-- tilt js effect ends -->
 
 
 // pre loader start 
