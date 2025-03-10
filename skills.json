@@ -6,12 +6,6 @@
     },
 
     {
-        "name": "Java ",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
-    
-
-    {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
     },
@@ -35,7 +29,31 @@
         "name": "ReactJS",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
-    
+    {
+        "name": "Tailwind CSS",
+        "icon": "https://img.icons8.com/color/48/000000/tailwind-css.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/color/48/000000/express.png"
+    },
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/color/48/000000/pandas.png"
+    },
+    {
+        "name": "Numpy",
+        "icon": "https://img.icons8.com/fluency/48/000000/numpy.png"
+    },
     {
         "name": "Android",
         "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
@@ -44,5 +62,10 @@
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    }   
+    },
+    {
+        "name": "Java ",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    }
+       
 ]
