@@ -162,9 +162,9 @@ const projectsData = [
       codeLink: "https://github.com/arnab-git-404/Whisperwave",
     },
     {
-      id: "weather",
-      name: "Weather Dashboard",
-      image: "/assets/images/projects/android.png",
+      id: "PassVault",
+      name: "PassVault",
+      image: "/assets/images/projects/PassVault/image.png",
       date: "2024-02-15",
       categories: ["react"],
       description:
@@ -174,10 +174,11 @@ const projectsData = [
         "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
       detailedTechnologies: [
         "React",
-        "OpenWeather API",
-        "Chart.js",
-        "Mapbox API",
-        "Geolocation API",
+        "Redis",
+        "FastApi",
+        "MongoDB",
+        "JWT Authentication",
+        "Tailwind Css"
       ],
       features: [
         "Current weather conditions and 7-day forecast",
@@ -190,16 +191,16 @@ const projectsData = [
       challenges:
         "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
       images: [
-        "assets/images/projects/weather1.jpg",
-        "assets/images/projects/weather2.jpg",
+        "/assets/images/projects/image1.jpg",
+        "/assets/images/projects/image2.jpg",
       ],
       liveLink: "#",
-      codeLink: "#",
+      codeLink: "https://github.com/arnab-git-404/PassVault",
     },
     {
-      id: "taskapi",
-      name: "Razorpay Payment Gateway Clone",
-      image: "/assets/images/projects/android.png",
+      id: "PowerPay",
+      name: "PowerPay",
+      image: "/assets/images/projects/PowerPay/image.png",
       date: "2024-01-10",
       categories: ["node"],
       description:
@@ -212,8 +213,9 @@ const projectsData = [
         "Express",
         "MongoDB",
         "JWT",
-        "Swagger",
-        "Jest",
+        "FastApi",
+        "Tailwind Css",
+
       ],
       features: [
         "User authentication and authorization",
@@ -227,16 +229,16 @@ const projectsData = [
       challenges:
         "Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
       images: [
-        "assets/images/projects/taskapi1.jpg",
-        "assets/images/projects/taskapi2.jpg",
+        "/assets/images/projects/image1.jpg",
+        "/assets/images/projects/image2.jpg",
       ],
       liveLink: "#",
-      codeLink: "#",
+      codeLink: "https://github.com/arnab-git-404/PowerPay",
     },
     {
-      id: "weather",
-      name: "Weather Dashboard",
-      image: "/assets/images/projects/android.png",
+      id: "WeatherApp",
+      name: "Weather App",
+      image: "/assets/images/projects/WeatherApp/image.png",
       date: "2024-02-15",
       categories: ["react"],
       description:
@@ -262,16 +264,16 @@ const projectsData = [
       challenges:
         "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
       images: [
-        "assets/images/projects/weather1.jpg",
-        "assets/images/projects/weather2.jpg",
+        "/assets/images/projects/image1.jpg",
+        "/assets/images/projects/image2.jpg",
       ],
-      liveLink: "#",
-      codeLink: "#",
+      liveLink: "https://arnab-git-404.github.io/Weather-App/",
+      codeLink: "https://github.com/arnab-git-404/Weather-App",
     },
     {
-      id: "weather",
-      name: "Weather Dashboard",
-      image: "/assets/images/projects/android.png",
+      id: "Portfolio",
+      name: "Portfolio",
+      image: "/assets/images/projects/Portfolio/image.png",
       date: "2024-02-15",
       categories: ["basicweb"],
       description:
@@ -280,11 +282,10 @@ const projectsData = [
       detailedDescription:
         "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
       detailedTechnologies: [
-        "React",
-        "OpenWeather API",
-        "Chart.js",
-        "Mapbox API",
-        "Geolocation API",
+        "HTML",
+        "CSS",
+        "JavaScript",
+
       ],
       features: [
         "Current weather conditions and 7-day forecast",
@@ -297,11 +298,11 @@ const projectsData = [
       challenges:
         "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
       images: [
-        "assets/images/projects/weather1.jpg",
-        "assets/images/projects/weather2.jpg",
+        "/assets/images/projects/image1.jpg",
+        "/assets/images/projects/image2.jpg",
       ],
-      liveLink: "#",
-      codeLink: "#",
+      liveLink: "https://arnab-git-404.netlify.app/",
+      codeLink: "https://github.com/arnab-git-404/Portfolio",
     },
   ],
   [
