@@ -124,23 +124,24 @@ function showSkills(skills) {
 const projectsData = [
   [
     {
-      id: "ecommerce",
-      name: "E-Commerce Platform",
-      image: "/assets/images/projects/android.png",
+      id: "WhisperWave",
+      name: "WhisperWave",
+      image: "/assets/images/projects/WhisperWave/image.png",
       date: "2024-03-01",
       categories: ["mern", "featured"],
       description:
-        "Full-stack e-commerce platform with product management, cart functionality, and payment integration.",
+        "Anonymous messaging platform for users to send messages securely.",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       detailedDescription:
-        "A full-stack e-commerce solution with product catalog, user authentication, shopping cart, order management, and payment processing. Features responsive design and admin dashboard for inventory management.",
+        "A full-stack messaging solution implementing secure anonymous communication.",
       detailedTechnologies: [
         "React",
         "Node.js",
         "Express",
         "MongoDB",
-        "Redux",
-        "Stripe API",
+        "NextJS",
+        "Zod",
+        "Bcrypt",
         "JWT Authentication",
       ],
       features: [
@@ -154,11 +155,11 @@ const projectsData = [
       challenges:
         "The biggest challenge was implementing a secure payment system while ensuring optimal performance. Used Redis for caching frequently accessed product data and implemented rate limiting to prevent API abuse.",
       images: [
-        "assets/images/projects/ecommerce1.jpg",
-        "assets/images/projects/ecommerce2.jpg",
+        "/assets/images/projects/WhisperWave/image1.png",
+        "/assets/images/projects/WhisperWave/image2.png",
       ],
-      liveLink: "#",
-      codeLink: "#",
+      liveLink: "https://whisperwave.vercel.app/",
+      codeLink: "https://github.com/arnab-git-404/Whisperwave",
     },
     {
       id: "weather",
