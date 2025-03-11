@@ -302,7 +302,7 @@ const projectsData = [
         "/assets/images/projects/image2.jpg",
       ],
       liveLink: "https://arnab-git-404.netlify.app/",
-      codeLink: "https://github.com/arnab-git-404/Portfolio",
+      codeLink: "https://github.com/arnab-git-404/Portfolio-Website",
     },
   ],
   [
