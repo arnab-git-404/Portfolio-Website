@@ -28,7 +28,7 @@
   <title>Portfolio | Arnab Mukherjee</title>
 </head>
 
-<body oncontextmenu="return false">
+<!-- <body oncontextmenu="return false">  -->
 
 
   <!-- navbar starts -->
@@ -164,11 +164,11 @@
     <!-- work project section starts -->
     <section class="work" id="work">
 
-      <h2 class="heading"><i class="fas fa-laptop-code"></i>My Mini<span> Projects</span></h2>
+      <h2 class="heading"><i class="fas fa-laptop-code"></i><span> Projects</span></h2>
   
       <div class="box-container">
   
-        <div class="box tilt">
+        <!-- <div class="box tilt">
           <img draggable="false" src="./assets/images/projects/" alt="" />
           <div class="content">
             <div class="tag">
@@ -182,20 +182,62 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
   
+
       </div>
   
       <div class="viewall">
-        <a href="/projects" class="btn"><span>View All</span>
-          <i class="fas fa-arrow-right"></i>
-        </a>
+        <div class="pagination">
+          <a href="#" class="pagination-arrow" id="prev-page" aria-label="Previous page"><i class="fas fa-chevron-left"></i></a>
+          <div id="pagination-numbers">
+            <!-- Page numbers will be inserted here dynamically -->
+          </div>
+          <a href="#" class="pagination-arrow" id="next-page" aria-label="Next page"><i class="fas fa-chevron-right"></i></a>
+        </div>
+
       </div>
   
     </section>
     <!-- work project section ends -->
   
   
+<!-- Project Details Modal -->
+<div id="project-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <div class="modal-header">
+      <h2 id="modal-project-title">Project Title</h2>
+    </div>
+    <div class="modal-body">
+      <div class="project-gallery">
+        <!-- Images will be inserted dynamically -->
+      </div>
+      <div class="project-details">
+        
+        <h3>Description</h3>
+        <p id="modal-project-description"></p>
+
+        <h3>Technologies</h3>
+        <div id="modal-project-tech"></div>
+        
+        <h3>Features</h3>
+        <ul id="modal-project-features"></ul>
+        
+        <h3>Challenges & Solutions</h3>
+        <p id="modal-project-challenges"></p>
+      </div>
+
+    </div>
+    <div class="modal-footer">
+      <a id="modal-live-link" href="#" class="btn" target="_blank">Live Demo</a>
+      <a id="modal-code-link" href="#" class="btn" target="_blank">View Code</a>
+    </div>
+  </div>
+</div>
+
+
+
   
     <!-- experience section starts -->
     <section class="experience" id="experience">
