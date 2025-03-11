@@ -191,8 +191,8 @@ const projectsData = [
       challenges:
         "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
       images: [
-        "/assets/images/projects/image1.jpg",
-        "/assets/images/projects/image2.jpg",
+        "/assets/images/projects/PassVault/image1.jpg",
+        "/assets/images/projects/PassVault/image2.jpg",
       ],
       liveLink: "#",
       codeLink: "https://github.com/arnab-git-404/PassVault",
@@ -229,8 +229,8 @@ const projectsData = [
       challenges:
         "Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
       images: [
-        "/assets/images/projects/image1.jpg",
-        "/assets/images/projects/image2.jpg",
+        "/assets/images/projects/PowerPay/image1.jpg",
+        "/assets/images/projects/PowerPay/image2.jpg",
       ],
       liveLink: "#",
       codeLink: "https://github.com/arnab-git-404/PowerPay",
@@ -264,8 +264,8 @@ const projectsData = [
       challenges:
         "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
       images: [
-        "/assets/images/projects/image1.jpg",
-        "/assets/images/projects/image2.jpg",
+        "/assets/images/projects/WeatherApp/image1.jpg",
+        "/assets/images/projects/WeatherApp/image2.jpg",
       ],
       liveLink: "https://arnab-git-404.github.io/Weather-App/",
       codeLink: "https://github.com/arnab-git-404/Weather-App",
@@ -298,8 +298,8 @@ const projectsData = [
       challenges:
         "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
       images: [
-        "/assets/images/projects/image1.jpg",
-        "/assets/images/projects/image2.jpg",
+        "/assets/images/projects/Portfolio/image1.jpg",
+        "/assets/images/projects/Portfolio/image2.jpg",
       ],
       liveLink: "https://arnab-git-404.netlify.app/",
       codeLink: "https://github.com/arnab-git-404/Portfolio-Website",
