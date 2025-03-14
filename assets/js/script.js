@@ -198,6 +198,38 @@ const projectsData = [
       codeLink: "https://github.com/arnab-git-404/PassVault",
     },
     {
+      id: "DegreeNFT",
+      name: "DegreeNFT",
+      image: "/assets/images/projects/DegreeNFT/image.png",
+      date: "2025-03-14",
+      categories: ["blockchain"],
+      description:
+        "Dummay : RESTful API for task management with authentication, task CRUD operations, and notifications.",
+      technologies: ["Node.js", "Express", "MongoDB", "JWT"],
+      detailedDescription:
+        "Dummy DATA : A RESTful API for task management applications with user authentication, task creation, assignment, updates, and notifications. Includes comprehensive documentation and testing.",
+      detailedTechnologies: [
+        "Solana Blockchain",
+        "Metaplex",
+        "Phantom Wallet",
+        "React",
+        "Tailwind Css",
+
+      ],
+      features: [
+        "Under Development",        
+      ],
+      challenges:
+        "Dummy: Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
+      images: [
+        "/assets/images/projects/DegreeNFT/image1.jpg",
+        "/assets/images/projects/DegreeNFT/image2.jpg",
+      ],
+      liveLink: "#",
+      codeLink: "https://github.com/arnab-git-404/DegreeNFT",
+    },
+    
+    {
       id: "PowerPay",
       name: "PowerPay",
       image: "/assets/images/projects/PowerPay/image.png",
@@ -236,41 +268,6 @@ const projectsData = [
       codeLink: "https://github.com/arnab-git-404/PowerPay",
     },
     {
-      id: "WeatherApp",
-      name: "Weather App",
-      image: "/assets/images/projects/WeatherApp/image.png",
-      date: "2024-02-15",
-      categories: ["react"],
-      description:
-        "Interactive weather app showing forecasts, historical data, and weather maps using external APIs.",
-      technologies: ["React", "Weather API", "Chart.js"],
-      detailedDescription:
-        "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
-      detailedTechnologies: [
-        "React",
-        "OpenWeather API",
-        "Chart.js",
-        "Mapbox API",
-        "Geolocation API",
-      ],
-      features: [
-        "Current weather conditions and 7-day forecast",
-        "Historical weather data with interactive charts",
-        "Location-based weather using geolocation",
-        "Interactive weather maps",
-        "Save favorite locations",
-        "Weather alerts and notifications",
-      ],
-      challenges:
-        "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
-      images: [
-        "/assets/images/projects/WeatherApp/image1.jpg",
-        "/assets/images/projects/WeatherApp/image2.jpg",
-      ],
-      liveLink: "https://arnab-git-404.github.io/Weather-App/",
-      codeLink: "https://github.com/arnab-git-404/Weather-App",
-    },
-    {
       id: "Portfolio",
       name: "Portfolio",
       image: "/assets/images/projects/Portfolio/image.png",
@@ -307,41 +304,39 @@ const projectsData = [
   ],
   [
     {
-      id: "ecommerce",
-      name: "E-Commerce Platform",
-      image: "/assets/images/projects/android.png",
-      date: "2024-03-01",
-      categories: ["mern", "featured"],
+      id: "WeatherApp",
+      name: "Weather App",
+      image: "/assets/images/projects/WeatherApp/image.png",
+      date: "2024-02-15",
+      categories: ["react"],
       description:
-        "Full-stack e-commerce platform with product management, cart functionality, and payment integration.",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
+        "Interactive weather app showing forecasts, historical data, and weather maps using external APIs.",
+      technologies: ["React", "Weather API", "Chart.js"],
       detailedDescription:
-        "A full-stack e-commerce solution with product catalog, user authentication, shopping cart, order management, and payment processing. Features responsive design and admin dashboard for inventory management.",
+        "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
       detailedTechnologies: [
         "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Redux",
-        "Stripe API",
-        "JWT Authentication",
+        "OpenWeather API",
+        "Chart.js",
+        "Mapbox API",
+        "Geolocation API",
       ],
       features: [
-        "User authentication and profile management",
-        "Product catalog with categories and search",
-        "Shopping cart and checkout process",
-        "Payment integration with Stripe",
-        "Order history and tracking",
-        "Admin dashboard for product and order management",
+        "Current weather conditions and 7-day forecast",
+        "Historical weather data with interactive charts",
+        "Location-based weather using geolocation",
+        "Interactive weather maps",
+        "Save favorite locations",
+        "Weather alerts and notifications",
       ],
       challenges:
-        "The biggest challenge was implementing a secure payment system while ensuring optimal performance. Used Redis for caching frequently accessed product data and implemented rate limiting to prevent API abuse.",
+        "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
       images: [
-        "assets/images/projects/ecommerce1.jpg",
-        "assets/images/projects/ecommerce2.jpg",
+        "/assets/images/projects/WeatherApp/image1.jpg",
+        "/assets/images/projects/WeatherApp/image2.jpg",
       ],
-      liveLink: "#",
-      codeLink: "#",
+      liveLink: "https://arnab-git-404.github.io/Weather-App/",
+      codeLink: "https://github.com/arnab-git-404/Weather-App",
     },
     {
       id: "weather",
