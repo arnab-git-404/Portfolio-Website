@@ -1206,6 +1206,11 @@ form .button-area {
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
+
+.details-btn:hover {
+  cursor: pointer;
+}
+
 .button-area button:hover {
   background: #421cecf5;
 }
