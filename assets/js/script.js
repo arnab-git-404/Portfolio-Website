@@ -222,8 +222,8 @@ const projectsData = [
       challenges:
         "Dummy: Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
       images: [
-        "/assets/images/projects/DegreeNFT/image1.jpg",
-        "/assets/images/projects/DegreeNFT/image2.jpg",
+        "/assets/images/projects/DegreeNFT/image1.png",
+        "/assets/images/projects/DegreeNFT/image2.png",
       ],
       liveLink: "#",
       codeLink: "https://github.com/arnab-git-404/DegreeNFT",
