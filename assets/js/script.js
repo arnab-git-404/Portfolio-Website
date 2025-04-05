@@ -194,7 +194,7 @@ const projectsData = [
         "/assets/images/projects/PassVault/image1.jpg",
         "/assets/images/projects/PassVault/image2.jpg",
       ],
-      liveLink: "#",
+      liveLink: "https://pass-vault-frontend.vercel.app/",
       codeLink: "https://github.com/arnab-git-404/PassVault",
     },
     {
