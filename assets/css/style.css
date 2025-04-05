@@ -1480,6 +1480,67 @@ form .button-area {
 }
 
 
+/* Add this to your existing CSS file */
+
+/* Modal text size improvements */
+.modal-content {
+  font-size: 1.1rem; /* Increase base font size for all modal content */
+}
+
+#modal-project-title {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.modal-body h3 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+#modal-project-description {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+#modal-project-tech {
+  font-size: 1.5rem;
+}
+
+
+
+#modal-project-features li {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+#modal-project-challenges {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.modal-footer .btn {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .modal-content {
+    font-size: 1rem;
+  }
+  
+  #modal-project-title {
+    font-size: 1.8rem;
+  }
+  
+  .modal-body h3 {
+    font-size: 1.4rem;
+  }
+}
+
+
 
 
 /* scroll top starts */
