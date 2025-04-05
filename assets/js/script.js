@@ -191,8 +191,8 @@ const projectsData = [
       challenges:
         "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
       images: [
-        "/assets/images/projects/PassVault/image1.jpg",
-        "/assets/images/projects/PassVault/image2.jpg",
+        "/assets/images/projects/PassVault/image1.png",
+        "/assets/images/projects/PassVault/image2.png",
       ],
       liveLink: "https://pass-vault-frontend.vercel.app/",
       codeLink: "https://github.com/arnab-git-404/PassVault",
@@ -225,7 +225,7 @@ const projectsData = [
         "/assets/images/projects/DegreeNFT/image1.png",
         "/assets/images/projects/DegreeNFT/image2.png",
       ],
-      liveLink: "#",
+      liveLink: "https://degree-nft.vercel.app/",
       codeLink: "https://github.com/arnab-git-404/DegreeNFT",
     },
     
@@ -295,8 +295,8 @@ const projectsData = [
       challenges:
         "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
       images: [
-        "/assets/images/projects/Portfolio/image1.jpg",
-        "/assets/images/projects/Portfolio/image2.jpg",
+        "/assets/images/projects/Portfolio/image1.png",
+        "/assets/images/projects/Portfolio/image2.png",
       ],
       liveLink: "https://arnab-git-404.netlify.app/",
       codeLink: "https://github.com/arnab-git-404/Portfolio-Website",
