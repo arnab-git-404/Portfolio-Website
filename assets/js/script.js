@@ -219,7 +219,7 @@ const projectsData = [
         "A full-stack messaging solution implementing secure anonymous communication.",
       detailedTechnologies: [
         "React",
-       "Gemini API",
+        "Gemini API",
         "MongoDB",
         "Next.js",
         "Zod",
@@ -236,12 +236,10 @@ const projectsData = [
         "Next.js for server-side rendering and performance",
         "MongoDB for scalable data storage",
       ],
-      challenges:
-        [
-          "Implementing secure authentication and data validation was challenging. Used Zod for schema validation and Bcrypt for password hashing to ensure data integrity and security.",
-          "Gemini API for AI-powered message generation required careful handling of API responses and error management. Implemented robust error handling to ensure a smooth user experience.",
-
-        ],
+      challenges: [
+        "Implementing secure authentication and data validation was challenging. Used Zod for schema validation and Bcrypt for password hashing to ensure data integrity and security.",
+        "Gemini API for AI-powered message generation required careful handling of API responses and error management. Implemented robust error handling to ensure a smooth user experience.",
+      ],
       images: [
         "/assets/images/projects/WhisperWave/image1.png",
         "/assets/images/projects/WhisperWave/image2.png",
@@ -256,10 +254,10 @@ const projectsData = [
       date: "2024-02-15",
       categories: ["basicweb"],
       description:
-       "My personal portfolio website showcasing my skills, projects, and experience.",
+        "My personal portfolio website showcasing my skills, projects, and experience.",
       technologies: [],
       detailedDescription:
-      "My personal portfolio website showcasing my skills, projects, and experience. It features a clean, modern design with smooth animations and responsive layout. The site includes sections for my bio, skills, projects, and contact information, all built using HTML, CSS, and JavaScript.",
+        "My personal portfolio website showcasing my skills, projects, and experience. It features a clean, modern design with smooth animations and responsive layout. The site includes sections for my bio, skills, projects, and contact information, all built using HTML, CSS, and JavaScript.",
       detailedTechnologies: ["HTML", "CSS", "JavaScript", "Particles.js"],
       features: [
         "Detailed description of the project, including its challenges and solutions.",
@@ -269,8 +267,7 @@ const projectsData = [
         "Responsive design for mobile and desktop",
         "Smooth animations and transitions",
       ],
-      challenges:
-      [
+      challenges: [
         "Creating a visually appealing and user-friendly design that effectively showcases my skills and projects.",
         "Ensuring the website is fully responsive and works seamlessly across different devices and screen sizes.",
         "Implementing smooth animations and transitions to enhance user experience without compromising performance.",
@@ -325,43 +322,6 @@ const projectsData = [
       codeLink: "https://github.com/arnab-git-404/SPL-Token-Creator",
     },
     {
-      id: "PowerPay",
-      name: "PowerPay",
-      image: "/assets/images/projects/PowerPay/image.png",
-      date: "2024-01-10",
-      categories: [],
-      description:
-        "RESTful API for task management with authentication, task CRUD operations, and notifications.",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT"],
-      detailedDescription:
-        "A RESTful API for task management applications with user authentication, task creation, assignment, updates, and notifications. Includes comprehensive documentation and testing.",
-      detailedTechnologies: [
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "JWT",
-        "FastApi",
-        "Tailwind Css",
-      ],
-      features: [
-        "User authentication and authorization",
-        "Task CRUD operations",
-        "Task assignment and status tracking",
-        "Due date notifications",
-        "User role management",
-        "API documentation with Swagger",
-        "Comprehensive test coverage",
-      ],
-      challenges:
-        "Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
-      images: [
-        "/assets/images/projects/PowerPay/image1.jpg",
-        "/assets/images/projects/PowerPay/image2.jpg",
-      ],
-      liveLink: "https://github.com/arnab-git-404/PowerPay",
-      codeLink: "https://github.com/arnab-git-404/PowerPay",
-    },
-    {
       id: "WeatherApp",
       name: "Weather App",
       image: "/assets/images/projects/WeatherApp/image.png",
@@ -392,29 +352,64 @@ const projectsData = [
       ],
 
       images: [
-        "/assets/images/projects/WeatherApp/image1.jpg",
-        "/assets/images/projects/WeatherApp/image2.jpg",
+        "/assets/images/projects/WeatherApp/image1.png",
+        "/assets/images/projects/WeatherApp/image2.png",
       ],
       liveLink: "https://arnab-git-404.github.io/Weather-App/",
       codeLink: "https://github.com/arnab-git-404/Weather-App",
     },
+
     {
+      id: "PowerPay",
+      name: "PowerPay",
+      image: "/assets/images/projects/PowerPay/image.png",
+      date: "2024-01-10",
+      categories: [],
+      description:
+      "An intuitive web application for managing and paying electricity bills, developed as a college minor project to streamline the payment process.",
+      technologies: ["Node.js", "Express", "MongoDB", "JWT"],
+      detailedDescription:
+      "PowerPay is a full-stack web application developed as a college minor project to simulate a real-world electricity bill payment system. The platform allows users to register, log in securely, view their current and past electricity bills, and make payments through a mock payment gateway. The backend is built with Node.js and Express, utilizing MongoDB to manage user accounts, billing data, and transaction histories. Secure authentication is handled using JSON Web Tokens (JWT) to protect sensitive user information.",
+      detailedTechnologies: [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "FastApi",
+        "Tailwind Css",
+      ],
+      features: [
+        "Secure User Registration and JWT-based Authentication",
+        "Dashboard to View Current and Outstanding Bills",
+        "Access to Detailed Billing History",
+        "Mock Payment Gateway for Bill Payments",
+        "User Profile Management",
+        "Responsive UI for accessibility on various devices",
+      ],
+      challenges: [
+        "<strong>Secure Authentication:</strong> Implementing a robust and secure user authentication system using JWT to protect user accounts and billing information.",
+          "<strong>Database Design:</strong> Structuring the MongoDB schema to efficiently manage relationships between users, their bills, and payment histories.",
+     
+      ],
+      images: [
+        "/assets/images/projects/PowerPay/image1.png",
+        "/assets/images/projects/PowerPay/image2.png",
+      ],
+      liveLink: "https://github.com/arnab-git-404/PowerPay",
+      codeLink: "https://github.com/arnab-git-404/PowerPay",
+    },
+  {
       id: "RazorPay_Clone",
       name: "Razorpay Payment Gateway Clone",
       image: "/assets/images/projects/RazorPay_Clone/image.png",
       date: "2024-01-10",
       categories: ["node"],
-      description:
-        "A clone of the Razorpay payment gateway",
-      detailedDescription:         "A clone of the Razorpay payment gateway",
+      description: "A clone of the Razorpay payment gateway",
+      detailedDescription: "A clone of the Razorpay payment gateway",
 
-      detailedTechnologies: [
-        "HTML", "CSS"
-      ],
-      features: [
-        
-      ],
-      challenges:[],
+      detailedTechnologies: ["HTML", "CSS"],
+      features: [],
+      challenges: [],
       images: [
         "/assets/images/projects/RazorPay_Clone/image1.png",
         "/assets/images/projects/RazorPay_Clone/image2.png",
@@ -422,6 +417,7 @@ const projectsData = [
       liveLink: "https://github.com/arnab-git-404/Razorpay-Clone",
       codeLink: "https://github.com/arnab-git-404/Razorpay-Clone",
     },
+
   ],
 ];
 
