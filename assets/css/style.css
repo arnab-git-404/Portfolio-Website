@@ -1450,7 +1450,7 @@ form .button-area {
   color: white;
   padding: 5px 12px;
   border-radius: 20px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 #modal-project-features li {
@@ -1458,6 +1458,15 @@ form .button-area {
   line-height: 1.5;
   margin-left: 20px;
 }
+
+
+#modal-project-challenges li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+
 .modal-footer {
   display: flex;
   justify-content: center;
@@ -1515,8 +1524,9 @@ form .button-area {
   line-height: 1.5;
 }
 
-#modal-project-challenges {
+#modal-project-challenges li {
   font-size: 1.5rem;
+  margin-bottom: 0.6rem;
   line-height: 1.6;
 }
 
