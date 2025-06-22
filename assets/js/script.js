@@ -358,7 +358,7 @@ const projectsData = [
         "/assets/images/projects/PowerPay/image1.jpg",
         "/assets/images/projects/PowerPay/image2.jpg",
       ],
-      liveLink: "#",
+      liveLink: "https://github.com/arnab-git-404/PowerPay",
       codeLink: "https://github.com/arnab-git-404/PowerPay",
     },
     {
