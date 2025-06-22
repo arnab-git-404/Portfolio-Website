@@ -717,11 +717,21 @@ header .navbar ul li a:hover {
 .work .heading span {
   color: rgb(255, 230, 0);
 }
-.work .box-container {
+
+/* OLD PROJECT LAYOUT*/
+/* .work .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
+} */
+
+
+/* NEW PROJECT LAYOUT */
+.work .box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 .work .box-container .box {
   flex: 1 1 30rem;
@@ -1537,6 +1547,11 @@ form .button-area {
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
+
+  .work .box-container {
+    grid-template-columns: 1fr;
+  }
+
   .modal-content {
     font-size: 1rem;
   }
@@ -1559,7 +1574,7 @@ form .button-area {
   top: -140%;
   right: 2rem;
   padding: 1rem 1.5rem;
-  font-size: 2rem;
+  font-size: 3rem;
   background: #ffae00;
   color: rgb(13, 0, 44);
   border-radius: 50%;
