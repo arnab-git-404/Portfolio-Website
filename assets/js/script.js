@@ -122,7 +122,6 @@ function showSkills(skills) {
 
 const projectsData = [
   [
-
     {
       id: "DegreeNFT",
       name: "DegreeNFT",
@@ -130,11 +129,18 @@ const projectsData = [
       date: "2025-03-14",
       categories: ["blockchain", "MERN"],
       description:
-      "DegreeNFT is a platform that turns academic certificates into NFTs on the Solana blockchain making them secure, On Chain verifiable",
+        "DegreeNFT is a platform that turns academic certificates into NFTs on the Solana blockchain making them secure, On Chain verifiable",
       detailedDescription:
-      "DegreeNFT is a decentralized application that enables institutions to issue academic certificates as NFTs on the Solana blockchain. It uses the Metaplex Token Metadata standard and IPFS for decentralized storage, ensuring each certificate is tamper-proof and publicly verifiable. The platform features an automated NFT minting pipeline with Umi SDK integration and metadata account linkage. Built with React, TailwindCSS, and a Node.js backend, it offers real-time wallet connectivity and a seamless minting experience.",
+        "DegreeNFT is a decentralized application that enables institutions to issue academic certificates as NFTs on the Solana blockchain. It uses the Metaplex Token Metadata standard and IPFS for decentralized storage, ensuring each certificate is tamper-proof and publicly verifiable. The platform features an automated NFT minting pipeline with Umi SDK integration and metadata account linkage. Built with React, TailwindCSS, and a Node.js backend, it offers real-time wallet connectivity and a seamless minting experience.",
       detailedTechnologies: [
-        "Node.js", "Express.js","Metaplex Umi", "MongoDB", "Solana Blockchain", "React", "Tailwind CSS", "IPFS",
+        "Node.js",
+        "Express.js",
+        "Metaplex Umi",
+        "IPFS",
+        "MongoDB",
+        "Solana Blockchain",
+        "React",
+        "Tailwind CSS",
       ],
       features: [
         "Real Time Wallet connectivity (e.g., Phantom Wallet, Metamask Wallet)",
@@ -143,16 +149,15 @@ const projectsData = [
         "On-Chain Certificates Validation",
         "Tamper Proof Certificates",
         "Complete Responsive Design",
-        ],
-      challenges:[
+      ],
+      challenges: [
         "<strong> Designing a Scalable System </strong> : Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
         "<strong> Automated NFT Minting Pipeline </strong> : Implemented an automated pipeline for minting NFTs using the Metaplex Umi SDK, ensuring efficient and error-free certificate issuance.",
         "<strong> Ensuring Decentralization </strong> : Ensuring the decentralization of certificate metadata and storage was crucial. Used IPFS for storing metadata and images, ensuring that certificates remain accessible even if the original server goes down.",
         "<strong> Handling Bulk Data Efficiently </strong> : Uploading student records one by one proved inefficient. To solve this, I developed a batch upload system that supports uploading up to 200 student entries at once. I also created a downloadable annexure template for colleges to prepare their data in a compatible format, reducing errors and setup time.",
         "<strong> Building a Sustainable Earning Model </strong> : Another key challenge was integrating a built-in revenue model. To address this, I designed a transaction-based fee system where students pay a small fee during the minting process. This fee is automatically routed to the official DegreeNFT Solana wallet, removing the need for separate payments and streamlining the user experience. This model supports long-term sustainability if adopted by official bodies.",
       ],
-        
-      
+
       images: [
         "/assets/images/projects/DegreeNFT/image1.png",
         "/assets/images/projects/DegreeNFT/image2.png",
@@ -165,12 +170,12 @@ const projectsData = [
       name: "PassVault",
       image: "/assets/images/projects/PassVault/image.png",
       date: "2024-02-15",
-      categories: ["react","full-stack"],
+      categories: ["react", "full-stack"],
       description:
-      "PassVault is a zero-knowledge password manager that keeps your credentials encrypted and fully private.",
+        "PassVault is a zero-knowledge password manager that keeps your credentials encrypted and fully private.",
       technologies: ["React"],
       detailedDescription:
-      "PassVault is a secure, zero-knowledge password management system built with React, TailwindCSS, FastAPI, and MongoDB. It uses AES-GCM encryption and PBKDF2-based key derivation to ensure that all sensitive data is encrypted client-side—meaning no passwords or master keys are ever stored or transmitted in plain form. Redis is used to manage session-bound workflows, enhancing both performance and security. With its clean UI and strong cryptographic foundations, PassVault gives users complete control over their credentials without compromising privacy.",
+        "PassVault is a secure, zero-knowledge password management system built with React, TailwindCSS, FastAPI, and MongoDB. It uses AES-GCM encryption and PBKDF2-based key derivation to ensure that all sensitive data is encrypted client-side—meaning no passwords or master keys are ever stored or transmitted in plain form. Redis is used to manage session-bound workflows, enhancing both performance and security. With its clean UI and strong cryptographic foundations, PassVault gives users complete control over their credentials without compromising privacy.",
       detailedTechnologies: [
         "React",
         "MongoDB",
@@ -189,11 +194,10 @@ const projectsData = [
         "User-friendly interface with TailwindCSS",
         "Instant auto-lock on page refresh or tab close",
       ],
-      challenges:[
+      challenges: [
         "<strong>Achieving True Zero-Knowledge Security</strong> : The core challenge was building a system where even the server couldn't access or decrypt user data. I tackled this by implementing AES-GCM encryption entirely on the client side, combined with PBKDF2-based key derivation to generate encryption keys from user passwords. This ensured that no sensitive data—neither credentials nor master keys—ever touched the backend in an unencrypted state.",
-        "<strong>Encrypting only passwords wasn’t enough—if the platform names (like \"Facebook\" or \"Gmail\") were stored in plain text, a database breach could still expose sensitive user activity and patterns.</strong> : To prevent this, I encrypted both the password and the associated metadata (like platform names) on the client side. So even if the database is compromised, attackers see only encrypted data with no clue about what service it belongs to—ensuring full zero-knowledge privacy.",
+        '<strong>Encrypting only passwords wasn’t enough—if the platform names (like "Facebook" or "Gmail") were stored in plain text, a database breach could still expose sensitive user activity and patterns.</strong> : To prevent this, I encrypted both the password and the associated metadata (like platform names) on the client side. So even if the database is compromised, attackers see only encrypted data with no clue about what service it belongs to—ensuring full zero-knowledge privacy.',
         "<strong>Maintaining security during unexpected events-like power failures or page refreshes—was critical. Any such event could risk leaving sensitive data temporarily exposed.</strong> : I implemented an instant auto-lock mechanism that clears all decrypted data and active sessions immediately if the page refreshes, the tab is closed, or a power failure occurs. This ensures that passwords are never left exposed in memory or the browser, maintaining strict zero-knowledge guarantees at all times.",
-
       ],
       images: [
         "/assets/images/projects/PassVault/image1.png",
@@ -269,10 +273,48 @@ const projectsData = [
       liveLink: "https://arnab-git-404.netlify.app/",
       codeLink: "https://github.com/arnab-git-404/Portfolio-Website",
     },
-  
   ],
-  
+
   [
+    {
+      id: "SPL_Token_Creator",
+      name: "SPL Token Creator",
+      image: "/assets/images/projects/SPL_Token_Creator/image.png",
+      date: "2025-03-14",
+      categories: ["blockchain", "MERN"],
+      description:
+        "SPL Token Creator is a fully frontend-based tool that allows users to create, mint, transfer, and burn SPL tokens directly on the Solana blockchain with real-time wallet connectivity and built-in authority checks.",
+      detailedDescription:
+        "SPL Token Creator is a decentralized, client-side web application built on the Solana blockchain using the SPL Token Program. It enables users to create new SPL tokens, mint additional tokens (restricted to the original creator via authority validation), transfer tokens between wallets, and burn tokens — all without any backend infrastructure. Built with React and TailwindCSS, the app leverages real-time wallet connectivity (e.g., Phantom) to interact directly with the Solana network, ensuring fast, secure, and trustless operations. The interface is clean, responsive, and designed to offer a smooth on-chain token management experience.",
+      detailedTechnologies: [
+        "React.js",
+        "Solana Blockchain",
+        "SPL Token Program",
+        "Tailwind CSS",
+        "Solana Wallet Adapter",
+      ],
+      features: [
+        "Real-time Wallet Connectivity (Phantom, Solflare, etc.)",
+        "SPL Token Creation via Token Program",
+        "Minting with Authority Validation (Only creator can mint)",
+        "Token Transfer Between Wallets",
+        "Token Burn Functionality",
+        "Client-Side Only – No Backend Required",
+        "Responsive UI with TailwindCSS",
+      ],
+      challenges: [
+        "<strong>Real-Time Wallet Interaction</strong> : Handling live wallet connectivity, transaction signing, and updates in real time using the Solana Wallet Adapter made the app dynamic but introduced edge-case handling for rejected or dropped transactions.",
+        "<strong>Authority-Restricted Minting</strong> : Implementing mint authority checks purely on-chain and enforcing that only the creator can mint more tokens was a key security feature. This ensured trustless control over token issuance.",
+        "<strong>Token Lifecycle Management</strong> : Enabling token creation, minting, transferring, and burning all in one frontend interface involved complex coordination with the SPL Token Program and precise wallet transaction handling.",
+      ],
+
+      images: [
+        "/assets/images/projects/SPL_Token_Creator/image1.png",
+        "/assets/images/projects/SPL_Token_Creator/image2.png",
+      ],
+      liveLink: "https://spl-token-creator-one.vercel.app/",
+      codeLink: "https://github.com/arnab-git-404/SPL-Token-Creator",
+    },
 
     {
       id: "PowerPay",
@@ -311,7 +353,6 @@ const projectsData = [
       liveLink: "#",
       codeLink: "https://github.com/arnab-git-404/PowerPay",
     },
-    
     {
       id: "WeatherApp",
       name: "Weather App",
@@ -346,41 +387,6 @@ const projectsData = [
       ],
       liveLink: "https://arnab-git-404.github.io/Weather-App/",
       codeLink: "https://github.com/arnab-git-404/Weather-App",
-    },
-    {
-      id: "weather",
-      name: "Weather Dashboard",
-      image: "/assets/images/projects/android.png",
-      date: "2024-02-15",
-      categories: ["react"],
-      description:
-        "Interactive weather app showing forecasts, historical data, and weather maps using external APIs.",
-      technologies: ["React", "Weather API", "Chart.js"],
-      detailedDescription:
-        "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
-      detailedTechnologies: [
-        "React",
-        "OpenWeather API",
-        "Chart.js",
-        "Mapbox API",
-        "Geolocation API",
-      ],
-      features: [
-        "Current weather conditions and 7-day forecast",
-        "Historical weather data with interactive charts",
-        "Location-based weather using geolocation",
-        "Interactive weather maps",
-        "Save favorite locations",
-        "Weather alerts and notifications",
-      ],
-      challenges:
-        "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
-      images: [
-        "assets/images/projects/weather1.jpg",
-        "assets/images/projects/weather2.jpg",
-      ],
-      liveLink: "#",
-      codeLink: "#",
     },
     {
       id: "taskapi",
@@ -419,10 +425,7 @@ const projectsData = [
       liveLink: "#",
       codeLink: "#",
     },
-     
   ],
-  
-
 ];
 
 // Project pagination and display system
@@ -645,12 +648,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
 
-
-
-
-
-
-      const challengesList = document.getElementById("modal-project-challenges");
+    const challengesList = document.getElementById("modal-project-challenges");
     if (challengesList) {
       challengesList.innerHTML = "";
       project.challenges.forEach((challenge) => {
@@ -659,7 +657,6 @@ document.addEventListener("DOMContentLoaded", function () {
         challengesList.appendChild(li);
       });
     }
-
 
     // Add images to gallery
     const gallery = document.querySelector(".project-gallery");
