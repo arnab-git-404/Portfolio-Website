@@ -122,6 +122,7 @@ function showSkills(skills) {
 
 const projectsData = [
   [
+
     {
       id: "DegreeNFT",
       name: "DegreeNFT",
@@ -201,7 +202,6 @@ const projectsData = [
       liveLink: "https://pass-vault-frontend.vercel.app/",
       codeLink: "https://github.com/arnab-git-404/PassVault",
     },
-
     {
       id: "WhisperWave",
       name: "WhisperWave",
@@ -240,6 +240,39 @@ const projectsData = [
       liveLink: "https://whisperwave.vercel.app/",
       codeLink: "https://github.com/arnab-git-404/Whisperwave",
     },
+    {
+      id: "Portfolio",
+      name: "Portfolio",
+      image: "/assets/images/projects/Portfolio/image.png",
+      date: "2024-02-15",
+      categories: ["basicweb"],
+      description:
+        "Interactive weather app showing forecasts, historical data, and weather maps using external APIs.",
+      technologies: ["React", "Weather API", "Chart.js"],
+      detailedDescription:
+        "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
+      detailedTechnologies: ["HTML", "CSS", "JavaScript"],
+      features: [
+        "Current weather conditions and 7-day forecast",
+        "Historical weather data with interactive charts",
+        "Location-based weather using geolocation",
+        "Interactive weather maps",
+        "Save favorite locations",
+        "Weather alerts and notifications",
+      ],
+      challenges:
+        "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
+      images: [
+        "/assets/images/projects/Portfolio/image1.png",
+        "/assets/images/projects/Portfolio/image2.png",
+      ],
+      liveLink: "https://arnab-git-404.netlify.app/",
+      codeLink: "https://github.com/arnab-git-404/Portfolio-Website",
+    },
+  
+  ],
+  
+  [
 
     {
       id: "PowerPay",
@@ -278,37 +311,9 @@ const projectsData = [
       liveLink: "#",
       codeLink: "https://github.com/arnab-git-404/PowerPay",
     },
-    {
-      id: "Portfolio",
-      name: "Portfolio",
-      image: "/assets/images/projects/Portfolio/image.png",
-      date: "2024-02-15",
-      categories: ["basicweb"],
-      description:
-        "Interactive weather app showing forecasts, historical data, and weather maps using external APIs.",
-      technologies: ["React", "Weather API", "Chart.js"],
-      detailedDescription:
-        "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
-      detailedTechnologies: ["HTML", "CSS", "JavaScript"],
-      features: [
-        "Current weather conditions and 7-day forecast",
-        "Historical weather data with interactive charts",
-        "Location-based weather using geolocation",
-        "Interactive weather maps",
-        "Save favorite locations",
-        "Weather alerts and notifications",
-      ],
-      challenges:
-        "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
-      images: [
-        "/assets/images/projects/Portfolio/image1.png",
-        "/assets/images/projects/Portfolio/image2.png",
-      ],
-      liveLink: "https://arnab-git-404.netlify.app/",
-      codeLink: "https://github.com/arnab-git-404/Portfolio-Website",
-    },
-  ],
-  [
+    
+
+
     {
       id: "WeatherApp",
       name: "Weather App",
@@ -487,6 +492,7 @@ const projectsData = [
       codeLink: "#",
     },
   ],
+  
   [
     {
       id: "ecommerce",
