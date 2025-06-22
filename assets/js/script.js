@@ -140,13 +140,19 @@ const projectsData = [
         "React",
         "Tailwind Css",
       ],
-      features: ["Under Development"],
+      features: [
+        "Real Time Wallet Connection(e.g., Phantom Wallet)",
+        "Metaplex Umi NFT Minting",
+        "Decentralized NFT Metadata",
+        "On-Chain Certificates Validation",
+        "Tamper Proof Certificates",
+        "Complete Responsive Design",
+        ],
       challenges:
         "Dummy: Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
       images: [
         "/assets/images/projects/DegreeNFT/image1.png",
         "/assets/images/projects/DegreeNFT/image2.png",
-       
       ],
       liveLink: "https://degree-nft.vercel.app/",
       codeLink: "https://github.com/arnab-git-404/DegreeNFT",
