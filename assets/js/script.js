@@ -211,7 +211,7 @@ const projectsData = [
       name: "WhisperWave",
       image: "/assets/images/projects/WhisperWave/image.png",
       date: "2024-03-01",
-      categories: ["mern", "featured"],
+      categories: ["MERN", "Full-Stack"],
       description:
         "Anonymous messaging platform for users to send messages securely.",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
@@ -220,20 +220,15 @@ const projectsData = [
       detailedTechnologies: [
         "React",
         "Node.js",
-        "Express",
         "MongoDB",
-        "NextJS",
+        "Next.js",
         "Zod",
         "Bcrypt",
+        "Express.js",
         "JWT Authentication",
       ],
       features: [
-        "User authentication and profile management",
-        "Product catalog with categories and search",
-        "Shopping cart and checkout process",
-        "Payment integration with Stripe",
-        "Order history and tracking",
-        "Admin dashboard for product and order management",
+,
       ],
       challenges:
         "The biggest challenge was implementing a secure payment system while ensuring optimal performance. Used Redis for caching frequently accessed product data and implemented rate limiting to prevent API abuse.",
