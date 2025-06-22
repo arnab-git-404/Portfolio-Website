@@ -120,9 +120,74 @@ function showSkills(skills) {
   skillsContainer.innerHTML = skillHTML;
 }
 
-
 const projectsData = [
   [
+    {
+      id: "DegreeNFT",
+      name: "DegreeNFT",
+      image: "/assets/images/projects/DegreeNFT/image.png",
+      date: "2025-03-14",
+      categories: ["blockchain"],
+      description:
+        "Dummay : RESTful API for task management with authentication, task CRUD operations, and notifications.",
+      technologies: ["Node.js", "Express", "MongoDB", "JWT"],
+      detailedDescription:
+        "Dummy DATA : A RESTful API for task management applications with user authentication, task creation, assignment, updates, and notifications. Includes comprehensive documentation and testing.",
+      detailedTechnologies: [
+        "Solana Blockchain",
+        "Metaplex",
+        "Phantom Wallet",
+        "React",
+        "Tailwind Css",
+      ],
+      features: ["Under Development"],
+      challenges:
+        "Dummy: Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
+      images: [
+        "/assets/images/projects/DegreeNFT/image1.png",
+        "/assets/images/projects/DegreeNFT/image2.png",
+        "/assets/images/projects/DegreeNFT/image3.png",
+      ],
+      liveLink: "https://degree-nft.vercel.app/",
+      codeLink: "https://github.com/arnab-git-404/DegreeNFT",
+    },
+    {
+      id: "PassVault",
+      name: "PassVault",
+      image: "/assets/images/projects/PassVault/image.png",
+      date: "2024-02-15",
+      categories: ["react"],
+      description:
+        "Interactive weather app showing forecasts, historical data, and weather maps using external APIs.",
+      technologies: ["React", "Weather API", "Chart.js"],
+      detailedDescription:
+        "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
+      detailedTechnologies: [
+        "React",
+        "Redis",
+        "FastApi",
+        "MongoDB",
+        "JWT Authentication",
+        "Tailwind Css",
+      ],
+      features: [
+        "Current weather conditions and 7-day forecast",
+        "Historical weather data with interactive charts",
+        "Location-based weather using geolocation",
+        "Interactive weather maps",
+        "Save favorite locations",
+        "Weather alerts and notifications",
+      ],
+      challenges:
+        "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
+      images: [
+        "/assets/images/projects/PassVault/image1.png",
+        "/assets/images/projects/PassVault/image2.png",
+      ],
+      liveLink: "https://pass-vault-frontend.vercel.app/",
+      codeLink: "https://github.com/arnab-git-404/PassVault",
+    },
+
     {
       id: "WhisperWave",
       name: "WhisperWave",
@@ -161,74 +226,7 @@ const projectsData = [
       liveLink: "https://whisperwave.vercel.app/",
       codeLink: "https://github.com/arnab-git-404/Whisperwave",
     },
-    {
-      id: "PassVault",
-      name: "PassVault",
-      image: "/assets/images/projects/PassVault/image.png",
-      date: "2024-02-15",
-      categories: ["react"],
-      description:
-        "Interactive weather app showing forecasts, historical data, and weather maps using external APIs.",
-      technologies: ["React", "Weather API", "Chart.js"],
-      detailedDescription:
-        "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
-      detailedTechnologies: [
-        "React",
-        "Redis",
-        "FastApi",
-        "MongoDB",
-        "JWT Authentication",
-        "Tailwind Css"
-      ],
-      features: [
-        "Current weather conditions and 7-day forecast",
-        "Historical weather data with interactive charts",
-        "Location-based weather using geolocation",
-        "Interactive weather maps",
-        "Save favorite locations",
-        "Weather alerts and notifications",
-      ],
-      challenges:
-        "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
-      images: [
-        "/assets/images/projects/PassVault/image1.png",
-        "/assets/images/projects/PassVault/image2.png",
-      ],
-      liveLink: "https://pass-vault-frontend.vercel.app/",
-      codeLink: "https://github.com/arnab-git-404/PassVault",
-    },
-    {
-      id: "DegreeNFT",
-      name: "DegreeNFT",
-      image: "/assets/images/projects/DegreeNFT/image.png",
-      date: "2025-03-14",
-      categories: ["blockchain"],
-      description:
-        "Dummay : RESTful API for task management with authentication, task CRUD operations, and notifications.",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT"],
-      detailedDescription:
-        "Dummy DATA : A RESTful API for task management applications with user authentication, task creation, assignment, updates, and notifications. Includes comprehensive documentation and testing.",
-      detailedTechnologies: [
-        "Solana Blockchain",
-        "Metaplex",
-        "Phantom Wallet",
-        "React",
-        "Tailwind Css",
 
-      ],
-      features: [
-        "Under Development",        
-      ],
-      challenges:
-        "Dummy: Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
-      images: [
-        "/assets/images/projects/DegreeNFT/image1.png",
-        "/assets/images/projects/DegreeNFT/image2.png",
-      ],
-      liveLink: "https://degree-nft.vercel.app/",
-      codeLink: "https://github.com/arnab-git-404/DegreeNFT",
-    },
-    
     {
       id: "PowerPay",
       name: "PowerPay",
@@ -247,7 +245,6 @@ const projectsData = [
         "JWT",
         "FastApi",
         "Tailwind Css",
-
       ],
       features: [
         "User authentication and authorization",
@@ -278,12 +275,7 @@ const projectsData = [
       technologies: ["React", "Weather API", "Chart.js"],
       detailedDescription:
         "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
-      detailedTechnologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-
-      ],
+      detailedTechnologies: ["HTML", "CSS", "JavaScript"],
       features: [
         "Current weather conditions and 7-day forecast",
         "Historical weather data with interactive charts",
@@ -661,11 +653,8 @@ const projectsData = [
       liveLink: "#",
       codeLink: "#",
     },
-  ]
+  ],
 ];
-
-
-
 
 // Project pagination and display system
 document.addEventListener("DOMContentLoaded", function () {
@@ -681,7 +670,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function displayProjects(page) {
     const projectContainer = document.querySelector("#work .box-container");
     projectContainer.innerHTML = "";
-    
+
     if (projectsData[page]) {
       projectsData[page].forEach((project) => {
         const projectBox = document.createElement("div");
@@ -716,48 +705,56 @@ document.addEventListener("DOMContentLoaded", function () {
       const paginationContainer = document.createElement("div");
       paginationContainer.className = "pagination";
       paginationContainer.innerHTML = `
-        <a href="#work" id="prev-page" class="page-btn ${currentPage === 0 ? 'disabled' : ''}"><i class="fas fa-chevron-left"></i></a>
+        <a href="#work" id="prev-page" class="page-btn ${
+          currentPage === 0 ? "disabled" : ""
+        }"><i class="fas fa-chevron-left"></i></a>
         <div id="pagination-numbers"></div>
-        <a href="#work" id="next-page" class="page-btn ${currentPage === totalPages - 1 ? 'disabled' : ''}"><i class="fas fa-chevron-right"></i></a>
+        <a href="#work" id="next-page" class="page-btn ${
+          currentPage === totalPages - 1 ? "disabled" : ""
+        }"><i class="fas fa-chevron-right"></i></a>
       `;
-      
+
       // Append pagination after the box container
       const workSection = document.querySelector("#work");
       const boxContainer = document.querySelector("#work .box-container");
       workSection.insertBefore(paginationContainer, boxContainer.nextSibling);
     }
-    
+
     // Generate page numbers
     generatePaginationNumbers();
-    
+
     // Add event listeners for prev/next buttons
-    document.getElementById("prev-page").addEventListener("click", function(e) {
-      e.preventDefault();
-      if (currentPage > 0) {
-        navigateToPage(currentPage - 1);
-      }
-    });
-    
-    document.getElementById("next-page").addEventListener("click", function(e) {
-      e.preventDefault();
-      if (currentPage < totalPages - 1) {
-        navigateToPage(currentPage + 1);
-      }
-    });
+    document
+      .getElementById("prev-page")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        if (currentPage > 0) {
+          navigateToPage(currentPage - 1);
+        }
+      });
+
+    document
+      .getElementById("next-page")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        if (currentPage < totalPages - 1) {
+          navigateToPage(currentPage + 1);
+        }
+      });
   }
 
   // Generate pagination number buttons
   function generatePaginationNumbers() {
     const paginationNumbers = document.getElementById("pagination-numbers");
     paginationNumbers.innerHTML = "";
-    
+
     for (let i = 0; i < totalPages; i++) {
       const pageNumber = document.createElement("a");
       pageNumber.href = "#work";
       pageNumber.className = `page-number ${i === currentPage ? "active" : ""}`;
       pageNumber.textContent = i + 1;
       pageNumber.setAttribute("data-page", i);
-      pageNumber.addEventListener("click", function(e) {
+      pageNumber.addEventListener("click", function (e) {
         e.preventDefault();
         const page = parseInt(this.getAttribute("data-page"));
         navigateToPage(page);
@@ -811,16 +808,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const closeBtn = document.querySelector(".close-modal");
 
     // Event delegation for modal buttons
-    $(document).on("click", ".details-btn", function() {
+    $(document).on("click", ".details-btn", function () {
       const projectId = $(this).data("project");
-      
+
       // Find the project in all pages of projectsData
       let foundProject = null;
       for (let page = 0; page < projectsData.length; page++) {
-        foundProject = projectsData[page].find(p => p.id === projectId);
+        foundProject = projectsData[page].find((p) => p.id === projectId);
         if (foundProject) break;
       }
-      
+
       if (foundProject) {
         openProjectModal(foundProject);
       }
@@ -828,13 +825,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Close modal
     if (closeBtn) {
-      closeBtn.onclick = function() {
+      closeBtn.onclick = function () {
         modal.style.display = "none";
       };
     }
 
     // Close modal when clicking outside
-    window.onclick = function(event) {
+    window.onclick = function (event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
@@ -851,8 +848,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (titleElement) titleElement.textContent = project.name;
 
     // Set project description
-    const descriptionElement = document.getElementById("modal-project-description");
-    if (descriptionElement) descriptionElement.textContent = project.detailedDescription;
+    const descriptionElement = document.getElementById(
+      "modal-project-description"
+    );
+    if (descriptionElement)
+      descriptionElement.textContent = project.detailedDescription;
 
     // Add technologies
     const techContainer = document.getElementById("modal-project-tech");
@@ -877,7 +877,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Add challenges
-    const challengesElement = document.getElementById("modal-project-challenges");
+    const challengesElement = document.getElementById(
+      "modal-project-challenges"
+    );
     if (challengesElement) challengesElement.textContent = project.challenges;
 
     // Add images to gallery
@@ -895,7 +897,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Set links
     const liveLink = document.getElementById("modal-live-link");
     if (liveLink) liveLink.href = project.liveLink;
-    
+
     const codeLink = document.getElementById("modal-code-link");
     if (codeLink) codeLink.href = project.codeLink;
 
@@ -908,7 +910,6 @@ document.addEventListener("DOMContentLoaded", function () {
 fetchData().then((data) => {
   showSkills(data);
 });
-
 
 // ScrollReveal Animations
 const srtop = ScrollReveal({
