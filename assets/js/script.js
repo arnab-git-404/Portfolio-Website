@@ -324,7 +324,6 @@ const projectsData = [
       liveLink: "https://spl-token-creator-one.vercel.app/",
       codeLink: "https://github.com/arnab-git-404/SPL-Token-Creator",
     },
-
     {
       id: "PowerPay",
       name: "PowerPay",
