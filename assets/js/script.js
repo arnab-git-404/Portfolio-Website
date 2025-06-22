@@ -219,19 +219,29 @@ const projectsData = [
         "A full-stack messaging solution implementing secure anonymous communication.",
       detailedTechnologies: [
         "React",
-        "Node.js",
+       "Gemini API",
         "MongoDB",
         "Next.js",
         "Zod",
         "Bcrypt",
         "Express.js",
         "JWT Authentication",
+        "Tailwind CSS",
       ],
       features: [
-,
+        "Zod Schema Validation for secure data handling",
+        "JWT Authentication for user security",
+        "Gemini API for AI-powered message generation",
+        "Bcrypt for password hashing",
+        "Next.js for server-side rendering and performance",
+        "MongoDB for scalable data storage",
       ],
       challenges:
-        "The biggest challenge was implementing a secure payment system while ensuring optimal performance. Used Redis for caching frequently accessed product data and implemented rate limiting to prevent API abuse.",
+        [
+          "Implementing secure authentication and data validation was challenging. Used Zod for schema validation and Bcrypt for password hashing to ensure data integrity and security.",
+          "Gemini API for AI-powered message generation required careful handling of API responses and error management. Implemented robust error handling to ensure a smooth user experience.",
+
+        ],
       images: [
         "/assets/images/projects/WhisperWave/image1.png",
         "/assets/images/projects/WhisperWave/image2.png",
