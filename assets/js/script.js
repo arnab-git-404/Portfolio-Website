@@ -289,7 +289,7 @@ const projectsData = [
       date: "2025-03-14",
       categories: ["blockchain", "MERN"],
       description:
-        "SPL Token Creator is a fully frontend-based tool that allows users to create, mint, transfer, and burn SPL tokens directly on the Solana blockchain with real-time wallet connectivity and built-in authority checks.",
+        "This is a software that allows users to create, mint, transfer, and burn SPL tokens directly on the Solana blockchain with real-time wallet connectivity,",
       detailedDescription:
         "SPL Token Creator is a decentralized, client-side web application built on the Solana blockchain using the SPL Token Program. It enables users to create new SPL tokens, mint additional tokens (restricted to the original creator via authority validation), transfer tokens between wallets, and burn tokens — all without any backend infrastructure. Built with React and TailwindCSS, the app leverages real-time wallet connectivity (e.g., Phantom) to interact directly with the Solana network, ensuring fast, secure, and trustless operations. The interface is clean, responsive, and designed to offer a smooth on-chain token management experience.",
       detailedTechnologies: [
