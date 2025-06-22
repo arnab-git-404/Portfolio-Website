@@ -329,7 +329,7 @@ const projectsData = [
       name: "PowerPay",
       image: "/assets/images/projects/PowerPay/image.png",
       date: "2024-01-10",
-      categories: ["node"],
+      categories: [],
       description:
         "RESTful API for task management with authentication, task CRUD operations, and notifications.",
       technologies: ["Node.js", "Express", "MongoDB", "JWT"],
