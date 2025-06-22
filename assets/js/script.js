@@ -387,8 +387,10 @@ const projectsData = [
         "Save favorite locations",
         "Weather alerts and notifications",
       ],
-      challenges:
+      challenges: [
         "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
+      ],
+
       images: [
         "/assets/images/projects/WeatherApp/image1.jpg",
         "/assets/images/projects/WeatherApp/image2.jpg",
@@ -397,41 +399,28 @@ const projectsData = [
       codeLink: "https://github.com/arnab-git-404/Weather-App",
     },
     {
-      id: "taskapi",
+      id: "RazorPay_Clone",
       name: "Razorpay Payment Gateway Clone",
-      image: "/assets/images/projects/android.png",
+      image: "/assets/images/projects/RazorPay_Clone/image.png",
       date: "2024-01-10",
       categories: ["node"],
       description:
-        "RESTful API for task management with authentication, task CRUD operations, and notifications.",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT"],
-      detailedDescription:
-        "A RESTful API for task management applications with user authentication, task creation, assignment, updates, and notifications. Includes comprehensive documentation and testing.",
+        "A clone of the Razorpay payment gateway",
+      detailedDescription:         "A clone of the Razorpay payment gateway",
+
       detailedTechnologies: [
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "JWT",
-        "Swagger",
-        "Jest",
+        "HTML", "CSS"
       ],
       features: [
-        "User authentication and authorization",
-        "Task CRUD operations",
-        "Task assignment and status tracking",
-        "Due date notifications",
-        "User role management",
-        "API documentation with Swagger",
-        "Comprehensive test coverage",
+        
       ],
-      challenges:
-        "Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
+      challenges:[],
       images: [
-        "assets/images/projects/taskapi1.jpg",
-        "assets/images/projects/taskapi2.jpg",
+        "/assets/images/projects/RazorPay_Clone/image1.png",
+        "/assets/images/projects/RazorPay_Clone/image2.png",
       ],
-      liveLink: "#",
-      codeLink: "#",
+      liveLink: "https://github.com/arnab-git-404/Razorpay-Clone",
+      codeLink: "https://github.com/arnab-git-404/Razorpay-Clone",
     },
   ],
 ];
