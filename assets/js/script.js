@@ -127,29 +127,31 @@ const projectsData = [
       name: "DegreeNFT",
       image: "/assets/images/projects/DegreeNFT/image.png",
       date: "2025-03-14",
-      categories: ["blockchain"],
+      categories: ["blockchain", "MERN"],
       description:
-        "Dummay : RESTful API for task management with authentication, task CRUD operations, and notifications.",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT"],
+      "DegreeNFT is a platform that turns academic certificates into NFTs on the Solana blockchain making them secure, On Chain verifiable",
       detailedDescription:
-        "Dummy DATA : A RESTful API for task management applications with user authentication, task creation, assignment, updates, and notifications. Includes comprehensive documentation and testing.",
+      "DegreeNFT is a decentralized application that enables institutions to issue academic certificates as NFTs on the Solana blockchain. It uses the Metaplex Token Metadata standard and IPFS for decentralized storage, ensuring each certificate is tamper-proof and publicly verifiable. The platform features an automated NFT minting pipeline with Umi SDK integration and metadata account linkage. Built with React, TailwindCSS, and a Node.js backend, it offers real-time wallet connectivity and a seamless minting experience.",
       detailedTechnologies: [
-        "Solana Blockchain",
-        "Metaplex",
-        "Phantom Wallet",
-        "React",
-        "Tailwind Css",
+        "Node.js", "Express.js","Metaplex Umi", "MongoDB", "Solana Blockchain", "React", "Tailwind CSS", "IPFS",
       ],
       features: [
-        "Real Time Wallet Connection(e.g., Phantom Wallet)",
+        "Real Time Wallet connectivity (e.g., Phantom Wallet, Metamask Wallet)",
         "Metaplex Umi NFT Minting",
         "Decentralized NFT Metadata",
         "On-Chain Certificates Validation",
         "Tamper Proof Certificates",
         "Complete Responsive Design",
         ],
-      challenges:
-        "Dummy: Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
+      challenges:[
+        "<strong> Designing a Scalable System </strong> : Designing a scalable system architecture was challenging. Implemented database indexing and pagination for optimal performance even with large datasets.",
+        "<strong> Automated NFT Minting Pipeline </strong> : Implemented an automated pipeline for minting NFTs using the Metaplex Umi SDK, ensuring efficient and error-free certificate issuance.",
+        "<strong> Ensuring Decentralization </strong> : Ensuring the decentralization of certificate metadata and storage was crucial. Used IPFS for storing metadata and images, ensuring that certificates remain accessible even if the original server goes down.",
+        "<strong> Handling Bulk Data Efficiently </strong> : Uploading student records one by one proved inefficient. To solve this, I developed a batch upload system that supports uploading up to 200 student entries at once. I also created a downloadable annexure template for colleges to prepare their data in a compatible format, reducing errors and setup time.",
+        "<strong> Building a Sustainable Earning Model </strong> : Another key challenge was integrating a built-in revenue model. To address this, I designed a transaction-based fee system where students pay a small fee during the minting process. This fee is automatically routed to the official DegreeNFT Solana wallet, removing the need for separate payments and streamlining the user experience. This model supports long-term sustainability if adopted by official bodies.",
+      ],
+        
+      
       images: [
         "/assets/images/projects/DegreeNFT/image1.png",
         "/assets/images/projects/DegreeNFT/image2.png",
@@ -882,11 +884,21 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
 
-    // Add challenges
-    const challengesElement = document.getElementById(
-      "modal-project-challenges"
-    );
-    if (challengesElement) challengesElement.textContent = project.challenges;
+
+
+
+
+
+      const challengesList = document.getElementById("modal-project-challenges");
+    if (challengesList) {
+      challengesList.innerHTML = "";
+      project.challenges.forEach((challenge) => {
+        const li = document.createElement("li");
+        li.innerHTML = challenge;
+        challengesList.appendChild(li);
+      });
+    }
+
 
     // Add images to gallery
     const gallery = document.querySelector(".project-gallery");
