@@ -270,7 +270,7 @@ const projectsData = [
         "Weather alerts and notifications",
       ],
       challenges:
-        "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
+      ["",],
       images: [
         "/assets/images/projects/Portfolio/image1.png",
         "/assets/images/projects/Portfolio/image2.png",
