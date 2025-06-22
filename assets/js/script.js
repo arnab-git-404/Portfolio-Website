@@ -164,30 +164,36 @@ const projectsData = [
       name: "PassVault",
       image: "/assets/images/projects/PassVault/image.png",
       date: "2024-02-15",
-      categories: ["react"],
+      categories: ["react","full-stack"],
       description:
-        "Interactive weather app showing forecasts, historical data, and weather maps using external APIs.",
-      technologies: ["React", "Weather API", "Chart.js"],
+      "PassVault is a zero-knowledge password manager that keeps your credentials encrypted and fully private.",
+      technologies: ["React"],
       detailedDescription:
-        "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
+      "PassVault is a secure, zero-knowledge password management system built with React, TailwindCSS, FastAPI, and MongoDB. It uses AES-GCM encryption and PBKDF2-based key derivation to ensure that all sensitive data is encrypted client-side—meaning no passwords or master keys are ever stored or transmitted in plain form. Redis is used to manage session-bound workflows, enhancing both performance and security. With its clean UI and strong cryptographic foundations, PassVault gives users complete control over their credentials without compromising privacy.",
       detailedTechnologies: [
         "React",
+        "MongoDB",
         "Redis",
+        "AES-GCM Encryption",
         "FastApi",
         "MongoDB",
         "JWT Authentication",
         "Tailwind Css",
       ],
       features: [
-        "Current weather conditions and 7-day forecast",
-        "Historical weather data with interactive charts",
-        "Location-based weather using geolocation",
-        "Interactive weather maps",
-        "Save favorite locations",
-        "Weather alerts and notifications",
+        "Zero-knowledge encryption for all credentials",
+        "Client-side encryption using AES-GCM",
+        "PBKDF2-based key derivation for master password",
+        "Session management with Redis",
+        "User-friendly interface with TailwindCSS",
+        "Instant auto-lock on page refresh or tab close",
       ],
-      challenges:
-        "Working with multiple APIs and handling rate limits was challenging. Implemented a caching strategy to minimize API calls and improve performance.",
+      challenges:[
+        "<strong>Achieving True Zero-Knowledge Security</strong> : The core challenge was building a system where even the server couldn't access or decrypt user data. I tackled this by implementing AES-GCM encryption entirely on the client side, combined with PBKDF2-based key derivation to generate encryption keys from user passwords. This ensured that no sensitive data—neither credentials nor master keys—ever touched the backend in an unencrypted state.",
+        "<strong>Encrypting only passwords wasn’t enough—if the platform names (like \"Facebook\" or \"Gmail\") were stored in plain text, a database breach could still expose sensitive user activity and patterns.</strong> : To prevent this, I encrypted both the password and the associated metadata (like platform names) on the client side. So even if the database is compromised, attackers see only encrypted data with no clue about what service it belongs to—ensuring full zero-knowledge privacy.",
+        "<strong>Maintaining security during unexpected events-like power failures or page refreshes—was critical. Any such event could risk leaving sensitive data temporarily exposed.</strong> : I implemented an instant auto-lock mechanism that clears all decrypted data and active sessions immediately if the page refreshes, the tab is closed, or a power failure occurs. This ensures that passwords are never left exposed in memory or the browser, maintaining strict zero-knowledge guarantees at all times.",
+
+      ],
       images: [
         "/assets/images/projects/PassVault/image1.png",
         "/assets/images/projects/PassVault/image2.png",
