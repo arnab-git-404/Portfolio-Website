@@ -146,7 +146,7 @@ const projectsData = [
       images: [
         "/assets/images/projects/DegreeNFT/image1.png",
         "/assets/images/projects/DegreeNFT/image2.png",
-        "/assets/images/projects/DegreeNFT/image3.png",
+       
       ],
       liveLink: "https://degree-nft.vercel.app/",
       codeLink: "https://github.com/arnab-git-404/DegreeNFT",
