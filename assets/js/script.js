@@ -256,21 +256,25 @@ const projectsData = [
       date: "2024-02-15",
       categories: ["basicweb"],
       description:
-        "Interactive weather app showing forecasts, historical data, and weather maps using external APIs.",
-      technologies: ["React", "Weather API", "Chart.js"],
+       "My personal portfolio website showcasing my skills, projects, and experience.",
+      technologies: [],
       detailedDescription:
-        "An interactive weather application that provides current conditions, forecasts, and historical weather data for any location worldwide. Features interactive maps and data visualization.",
-      detailedTechnologies: ["HTML", "CSS", "JavaScript"],
+      "My personal portfolio website showcasing my skills, projects, and experience. It features a clean, modern design with smooth animations and responsive layout. The site includes sections for my bio, skills, projects, and contact information, all built using HTML, CSS, and JavaScript.",
+      detailedTechnologies: ["HTML", "CSS", "JavaScript", "Particles.js"],
       features: [
-        "Current weather conditions and 7-day forecast",
-        "Historical weather data with interactive charts",
-        "Location-based weather using geolocation",
-        "Interactive weather maps",
-        "Save favorite locations",
-        "Weather alerts and notifications",
+        "Detailed description of the project, including its challenges and solutions.",
+        "Technologies used in the project",
+        "Schooling and College details",
+        "Skills and expertise showcased",
+        "Responsive design for mobile and desktop",
+        "Smooth animations and transitions",
       ],
       challenges:
-      ["",],
+      [
+        "Creating a visually appealing and user-friendly design that effectively showcases my skills and projects.",
+        "Ensuring the website is fully responsive and works seamlessly across different devices and screen sizes.",
+        "Implementing smooth animations and transitions to enhance user experience without compromising performance.",
+      ],
       images: [
         "/assets/images/projects/Portfolio/image1.png",
         "/assets/images/projects/Portfolio/image2.png",
